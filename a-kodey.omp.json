@@ -6,6 +6,18 @@
       "alignment": "left",
       "segments": [
         {
+          "type": "python",
+          "style": "plain",
+          "foreground": "#a679c3",
+          "properties": {
+            "display_virtual_env": true,
+            "dispplay_default": true,
+            "display_version": true,
+            "home_enabled": true,
+            "display_mode": "always"
+          }
+        },
+        {
           "properties": {
             "style": "full"
           },
