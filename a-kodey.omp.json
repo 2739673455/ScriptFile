@@ -8,7 +8,7 @@
         {
           "type": "python",
           "style": "plain",
-          "foreground": "#a679c3",
+          "foreground": "#ddaeff",
           "properties": {
             "display_virtual_env": true,
             "dispplay_default": true,
@@ -63,12 +63,12 @@
             "fetch_upstream_icon": true,
             "branch_icon": ""
           },
-          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \u25cb{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} | {{ end }}{{ if .Staging.Changed }} \u25cf{{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
-          "foreground": "#F3C267",
+          "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} | {{ end }}{{ if .Staging.Changed }} {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} {{ .StashCount }}{{ end }}",
+          "foreground": "#bcbcbc",
           "type": "git",
           "style": "plain",
           "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#FF9248{{ end }}",
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ffae00{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ff4500{{ end }}",
             "{{ if gt .Ahead 0 }}#B388FF{{ end }}",
             "{{ if gt .Behind 0 }}#B388FF{{ end }}"
@@ -83,7 +83,7 @@
       "segments": [
         {
           "template": ">",
-          "foreground": "#ed747e",
+          "foreground": "#ff7783",
           "type": "shell",
           "style": "plain"
         }
