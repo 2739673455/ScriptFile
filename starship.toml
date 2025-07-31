@@ -18,27 +18,27 @@ $character"""
 palette = 'catppuccin_frappe'
 
 [directory]
-style = "bg:peach fg:crust"
+style = "fg:black bg:peach"
 format = "[ $path ]($style)"
 
 [git_branch]
-style = "bg:yellow"
-format = '[[  $branch ](fg:crust bg:yellow)]($style)'
+style = "fg:black bg:yellow"
+format = '[  $branch ]($style)'
 
 [git_status]
-style = "bg:yellow"
-format = '[[($all_status$ahead_behind )](fg:crust bg:yellow)]($style)'
+style = "fg:black bg:yellow"
+format = '[($all_status$ahead_behind )]($style)'
 
 [conda]
-style = "fg:crust bg:sapphire"
+style = "fg:black bg:sapphire"
 format = '[ $environment ]($style)'
 ignore_base = false
 
 [time]
+style = "fg:black bg:lavender"
+format = '[  $time ]($style)'
 disabled = false
 time_format = "%R"
-style = "bg:lavender"
-format = '[[  $time ](fg:crust bg:lavender)]($style)'
 
 [line_break]
 disabled = false
@@ -58,8 +58,7 @@ format = " in $duration "
 style = "bg:lavender"
 disabled = false
 show_notifications = true
-min_time_to_notify = 45000
-
+min_time_to_notify = 30000
 
 [palettes.catppuccin_frappe]
 red = "#e78284"
@@ -68,4 +67,4 @@ yellow = "#e5c890"
 green = "#a6d189"
 sapphire = "#85c1dc"
 lavender = "#babbf1"
-crust = "#232634"
+black = "#1d1d1d"
