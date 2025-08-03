@@ -1,0 +1,10 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sun Aug  3 13:13:54 2025"
+  rime_version: 1.13.1
+patch:
+  "style/color_scheme": purity_of_form_custom
+  "style/font_face": "Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
+  "style/font_point": 12
