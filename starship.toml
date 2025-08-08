@@ -14,6 +14,8 @@ palette = 'catppuccin_frappe'
 
 [directory]
 format = "[ $path ](fg:lavender)"
+truncation_length = 2
+fish_style_pwd_dir_length = 1
 
 [git_branch]
 format = '[  $branch ](fg:peach)'
@@ -33,6 +35,7 @@ deleted = "✘"
 
 [conda]
 format = '[ $environment ](fg:sapphire)'
+truncation_length = 1
 ignore_base = false
 
 [time]
@@ -41,7 +44,7 @@ disabled = false
 time_format = "%R"
 
 [line_break]
-disabled = false
+disabled = true
 
 [character]
 disabled = false
