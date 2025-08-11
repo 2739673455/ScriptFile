@@ -13,12 +13,12 @@ $character"""
 palette = 'catppuccin_frappe'
 
 [directory]
-format = "[$path ](fg:lavender)"
+format = "[$path ](fg:green)"
 truncation_length = 2
 fish_style_pwd_dir_length = 1
 
 [git_branch]
-format = '[$branch](fg:peach)'
+format = '[$branch](fg:lavender)'
 
 [git_status]
 format = "[$all_status$ahead_behind](fg:red) "
@@ -34,7 +34,7 @@ renamed = "»"
 deleted = "✘"
 
 [conda]
-format = '[$environment ](fg:sapphire)'
+format = '[$environment ](fg:peach)'
 truncation_length = 1
 ignore_base = false
 
