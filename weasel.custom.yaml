@@ -5,22 +5,20 @@ customization:
   modified_time: "Thu Aug 21 10:54:22 2025"
   rime_version: 1.13.1
 patch:
-  "style/color_scheme": kodey
-  "style/font_face": "Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  "style/font_point": 12
-  "preset_color_schemes/kodey/name": kodey
-  "preset_color_schemes/kodey/text_color": 0x808080
-  "preset_color_schemes/kodey/back_color": 0x545554
-  "preset_color_schemes/kodey/label_color": 0xBBBBBB
-  "preset_color_schemes/kodey/border_color": 0x545554
-  "preset_color_schemes/kodey/shadow_color": 0xb4000000
-  "preset_color_schemes/kodey/comment_text_color": 0x808080
-  "preset_color_schemes/kodey/candidate_text_color": 0xEEEEEE
-  "preset_color_schemes/kodey/hilited_text_color": 0xEEEEEE
-  "preset_color_schemes/kodey/hilited_comment_text_color": 0x808080
-  "preset_color_schemes/kodey/hilited_candidate_text_color": 0xEEEEEE
-  "preset_color_schemes/kodey/hilited_candidate_back_color": 0x80000000
-  "preset_color_schemes/kodey/hilited_candidate_border_color": 0x80000000
-  "preset_color_schemes/kodey/hilited_candidate_label_color": 0x4C4C4C
-  "app_options/Code.exe/ascii_mode": false
-  "app_options/Code.exe/ascii_punct": false
+  style/color_scheme: kodey
+  style/font_point: 12
+  preset_color_schemes/kodey:
+    name: kodey
+    text_color: 0x808080
+    back_color: 0x545554
+    label_color: 0xBBBBBB
+    border_color: 0x545554
+    shadow_color: 0xb4000000
+    comment_text_color: 0x808080
+    candidate_text_color: 0xEEEEEE
+    hilited_text_color: 0xEEEEEE
+    hilited_comment_text_color: 0x808080
+    hilited_candidate_text_color: 0xEEEEEE
+    hilited_candidate_back_color: 0x80000000
+    hilited_candidate_border_color: 0x80000000
+    hilited_candidate_label_color: 0x4C4C4C
