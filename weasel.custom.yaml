@@ -1,27 +1,41 @@
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.17.4
-  generator: "Weasel::UIStyleSettings"
-  modified_time: "Thu Aug 21 10:54:22 2025"
-  rime_version: 1.13.1
 patch:
-  style/color_scheme: kodey
-  style/font_point: 12
-  preset_color_schemes/kodey:
+  "app_options/Code.exe":
+    ascii_mode: false
+    ascii_punct: false
+  "preset_color_schemes/kodey":
     name: kodey
-    text_color: 0x808080
     back_color: 0x545554
-    label_color: 0xBBBBBB
     border_color: 0x545554
-    shadow_color: 0xb4000000
-    comment_text_color: 0x808080
     candidate_text_color: 0xEEEEEE
-    hilited_text_color: 0xEEEEEE
-    hilited_comment_text_color: 0x808080
-    hilited_candidate_text_color: 0xEEEEEE
+    comment_text_color: 0x808080
     hilited_candidate_back_color: 0x80000000
     hilited_candidate_border_color: 0x80000000
     hilited_candidate_label_color: 0x4C4C4C
-  app_options/Code.exe:
-    ascii_mode: false
-    ascii_punct: false
+    hilited_candidate_text_color: 0xEEEEEE
+    hilited_comment_text_color: 0x808080
+    hilited_text_color: 0xEEEEEE
+    label_color: 0xBBBBBB
+    shadow_color: 0xb4000000
+    text_color: 0x808080
+  "style/color_scheme": kodey
+  "style/font_point": 12
+  "style/layout":
+    align_type: center # 标签、候选文字、注解文字之间的相对对齐方式
+    max_height: 2800 # 候选框最大高度、宽度。超过设定值会尝试自动折叠，设置为 0 不启用此功能
+    max_width: 1400 # 2800
+    min_height: 0 # 候选框最小高度、宽度
+    min_width: 50 #80
+    border: 0
+    margin_x: 0 # 主体元素和候选框的左右、上下边距，为负值时，不显示候选框
+    margin_y: 0
+    spacing: 18 # inline_preedit 为 false 时，编码区域和候选区域的间距
+    candidate_spacing: 16 # 候选项之间的间距
+    hilite_spacing: 6 # 候选项和相应标签的间距，候选项与注解文字之间的距离
+    hilite_padding: 6 # 高亮区域和内部文字的间距，影响高亮区域大小
+    hilite_padding_y: 5 # 高亮区域和内部文字的左右、上下间距，如无特殊指定则依 hilite_padding 设置
+    hilite_padding_x: 5
+    shadow_offset_x: "0" # 阴影绘制的偏离距离
+    shadow_offset_y: "0"
+    shadow_radius: 0 # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+    corner_radius: 12 # 候选窗口圆角半径
+    round_corner: 12 # 候选背景色块圆角半径，别名 `hilited_corner_radius`
