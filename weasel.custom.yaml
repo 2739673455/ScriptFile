@@ -4,19 +4,11 @@ patch:
     ascii_punct: false
   "preset_color_schemes/kodey":
     name: kodey
-    back_color: 0x545554
-    border_color: 0x545554
-    candidate_text_color: 0xEEEEEE
-    comment_text_color: 0x808080
-    hilited_candidate_back_color: 0x80000000
-    hilited_candidate_border_color: 0x80000000
-    hilited_candidate_label_color: 0x4C4C4C
-    hilited_candidate_text_color: 0xEEEEEE
-    hilited_comment_text_color: 0x808080
-    hilited_text_color: 0xEEEEEE
-    label_color: 0xBBBBBB
-    shadow_color: 0xb4000000
-    text_color: 0x808080
+    back_color: 0x0A0A0A # 界面背景颜色
+    hilited_text_color: 0x1A8AD6 # 高亮文字的颜色
+    # hilited_candidate_back_color: 0x545554 # 高亮候选项的背景颜色
+    shadow_color: 0xb4000000 # 阴影颜色
+    text_color: 0xDDDDDD # 默认文字颜色
   "style/color_scheme": kodey
   "style/font_point": 12
   "style/layout":
