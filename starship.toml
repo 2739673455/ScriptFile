@@ -8,6 +8,7 @@ $git_branch\
 $git_status\
 $conda\
 $pixi\
+$python\
 $time\
 $cmd_duration\
 $line_break\
@@ -43,6 +44,9 @@ ignore_base = false
 
 [pixi]
 format = '[$environment](bold green)'
+
+[python]
+format = "[($virtualenv)]($style)"
 
 [time]
 format = ' $time'
