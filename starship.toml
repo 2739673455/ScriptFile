@@ -22,7 +22,7 @@ truncation_length = 2
 fish_style_pwd_dir_length = 1
 
 [git_branch]
-format = '[$branch](bold lavender)'
+format = '[$branch]($style)'
 
 [git_status]
 format = '[$all_status$ahead_behind](red) '
@@ -37,16 +37,11 @@ staged = "+"
 renamed = "»"
 deleted = "✘"
 
-[conda]
-format = '[$environment ](fg:peach)'
-truncation_length = 1
-ignore_base = false
-
 [pixi]
-format = '[$environment](bold green)'
+format = '[$environment]($style)'
 
 [python]
-format = "[($virtualenv)]($style)"
+format = '[($virtualenv)]($style)'
 
 [time]
 format = ' $time'
@@ -75,9 +70,6 @@ min_time_to_notify = 30000
 
 [palettes.catppuccin_frappe]
 red = "#e78284"
-peach = "#ef9f76"
 yellow = "#e5c890"
 green = "#a6d189"
-sapphire = "#85c1dc"
 lavender = "#babbf1"
-black = "#1d1d1d"
