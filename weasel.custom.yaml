@@ -5,7 +5,7 @@ patch:
   "preset_color_schemes/kodey":
     name: kodey
     back_color: 0x0A0A0A # 界面背景颜色
-    hilited_text_color: 0xa26c73 # 高亮文字的颜色
+    hilited_text_color: 0xdca8c3 # 高亮文字的颜色
     # hilited_candidate_back_color: 0x545554 # 高亮候选项的背景颜色
     shadow_color: 0xb4000000 # 阴影颜色
     text_color: 0xDDDDDD # 默认文字颜色
