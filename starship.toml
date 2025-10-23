@@ -15,15 +15,15 @@ $character"""
 palette = 'catppuccin_frappe'
 
 [directory]
-format = '[$path](green)'
+format = '[$path](bold green)'
 truncation_length = 2
 fish_style_pwd_dir_length = 1
 
 [git_branch]
-format = '[( $branch)](lavender)'
+format = '[( $branch)](bold lavender)'
 
 [git_status]
-format = '[($all_status$ahead_behind)](red)'
+format = '[($all_status$ahead_behind)](bold red)'
 conflicted = "="
 ahead = "⇡"
 behind = "⇣"
@@ -36,7 +36,7 @@ renamed = "»"
 deleted = "✘"
 
 [python]
-format = '[( $virtualenv)](yellow)'
+format = '[( $virtualenv)](bold blue)'
 
 [time]
 format = ' $time'
@@ -53,7 +53,7 @@ error_symbol = '[>](bold red)'
 vimcmd_symbol = '[<](bold green)'
 vimcmd_replace_one_symbol = '[<](bold lavender)'
 vimcmd_replace_symbol = '[<](bold lavender)'
-vimcmd_visual_symbol = '[<](bold yellow)'
+vimcmd_visual_symbol = '[<](bold blue)'
 
 [cmd_duration]
 show_milliseconds = true
@@ -64,7 +64,7 @@ show_notifications = true
 min_time_to_notify = 30000
 
 [palettes.catppuccin_frappe]
-red = "#e78284"
-yellow = "#e5c890"
-green = "#a6d189"
-lavender = "#babbf1"
+red = "#ff0004"
+blue = "#0077ff"
+green = "#66ff00"
+lavender = "#7700ff"
